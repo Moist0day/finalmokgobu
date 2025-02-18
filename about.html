@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mokgobu Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/weblogo.png" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script>
+        function showMenu() {
+            document.getElementById("navLinks").classList.add("show");
+        }
+        function hideMenu() {
+            document.getElementById("navLinks").classList.remove("show");
+        }
+    </script>
+    
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="images/mokgobu.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <!----about us content-->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>  Elevate Your Brand to New Heights</h1>
+                <p>Your brand has incredible potential don't let it go unnoticed! At Mokgobu Digital, we specialize in getting businesses like yours the attention they deserve. Whether it's <b>ranking higher on Google</b>, creating social media buzz, running <b>powerful ad campaigns</b>, or crafting content that turns visitors into loyal clients, we make it happen. Our team knows what works and how to get real results. So, why settle for average when you can stand out? Let's take your brand to new heights together!</p>
+                <a href="services.html" class="hero-btn red-btn">SERVICE OFFERING</a>
+            </div>
+            <div class="about-col">
+                <img src="images/Untitled design1.png">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Reach Us Through</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </section>
+</body>
+</html>

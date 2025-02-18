@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mokgobu Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/weblogo.png" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script>
+        function showMenu() {
+            document.getElementById("navLinks").classList.add("show");
+        }
+        function hideMenu() {
+            document.getElementById("navLinks").classList.remove("show");
+        }
+    </script>
+    
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="images/mokgobu.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+   <!---services-->
+
+  <!-- Services Section -->
+  <section class="service">
+    <h1 class="heading">SERVICES</h1>
+    <p>At <strong>Mokgobu Digital</strong>, we're passionate about driving real results for your brand in the digital world. <br> With a blend of creativity, data, and strategy, we craft customized marketing solutions that boost visibility, engage audiences, and accelerate growth.<br> Ready to transform your digital presence? <br>Let's make it happen.</p>
+
+    <div class="wrapper">
+        <!-- Web Development -->
+        <div class="box">
+            <i class='fa fa-google'></i>
+            <h2>Search Engine Optimization</h2>
+            <p>We provide a full suite of services designed to improve your website's ranking and drive organic, non-paid traffic from Google. Our team conducts in-depth SEO audits, delivering actionable insights and tailored strategies to enhance your site's visibility and maximize its reach on search engines.</p>
+        </div>
+
+        <div class="box">
+            <i class='fa fa-code'></i>
+            <h2>UX/UI Web Design</h2>
+            <p>Our designers combine proven methods with cutting-edge innovation to craft captivating visual experiences and intuitive user journeys. Whether you need a custom UX/UI design or a complete redesign, we'll elevate your brand's visual identity while ensuring your website is both stunning and highly functional.</p>
+        </div>
+
+        
+
+        <div class="box">
+            <i class='fa fa-code'></i>
+            <h2>Web Development</h2>
+            <p>We create high-performance websites that drive results. With a focus on design, functionality, and user experience, we build sites that elevate your brand and convert visitors into customers.</p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="box">
+            <i class='fa fa-mobile'></i>
+            <h2>Social Media</h2>
+            <p>We're masters of social media marketing. By combining data, creativity, and trend-savvy strategies, we craft campaigns that engage and convert.</p>
+        </div>
+
+        <!-- Graphic Design -->
+        <div class="box">
+            <i class='fa fa-laptop'></i>
+            <h2>Graphic Design</h2>
+            <p>We create stunning visuals that make your brand unforgettable. Our expert graphic design team crafts designs that captivate, engage, and drive results.</p>
+        </div>
+
+        <!-- Strategy -->
+        <div class="box">
+            <i class='fa fa-edit'></i>
+            <h2>Strategy</h2>
+            <p>We craft data-driven marketing strategies that deliver real results. Focused on your goals, we create customized plans that drive growth and success.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h1> LET'S CHAT</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Reach Us Through</p>
+        <div class="icons">
+            <i class="fa fa-facebook"> </i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </section>
+</body>
+</html>
